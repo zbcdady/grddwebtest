@@ -62346,7 +62346,7 @@ A.dt(d,$.ff(),!0)
 j=A.amq(new A.dK(d))
 e=j.c
 if(e==null){e=j.e
-e=j.c=A.acr().wV(j.d,e)}n=A.aq9(j,e.n8("activities_web")).hM("A6jSTrvfP38MYimFdq3U")
+e=j.c=A.acr().wV(j.d,e)}n=A.aq9(j,e.n8("activities_web")).hM(window.location.href.split("?")[1])
 q=3
 s=6
 return A.Y(J.aka(n),$async$ov)
