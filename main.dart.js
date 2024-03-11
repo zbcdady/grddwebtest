@@ -64360,7 +64360,7 @@ if(B.d.v(q,"iPhone")){q=window
 q.toString
 B.vl.JS(q,"https://apps.apple.com/us/app/gurudada/id6472616005","_blank")}else{q=window
 q.toString
-B.vl.JS(q,"gurudada://item?arguments=Hello","hello")}return A.M(null,r)}})
+B.vl.JS(q,"gurudada://item?arguments=Hello","_self")}return A.M(null,r)}})
 return A.N($async$zg,r)},
 aM(){var s=this
 s.bj()
