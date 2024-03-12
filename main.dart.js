@@ -64401,7 +64401,7 @@ $0(){var s=window.navigator.userAgent
 s.toString
 if(B.d.v(s,"iPhone")){s=window
 s.toString
-B.eo.tb(s,"gurudada.app/item/?item-id=abc","_self")}else{s=window
+B.eo.tb(s,"gurudada.web.app/promos/?promo-id=ABC1","_self")}else{s=window
 s.toString
 B.eo.tb(s,"gurudada://item?arguments=Hello","_self")}},
 $S:0}
