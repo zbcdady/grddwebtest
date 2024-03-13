@@ -20835,7 +20835,7 @@ case 2:q=document
 p=q.createElement("img")
 p.width=400
 p.height=400
-p.src="https://assets-global.website-files.com/5fb568e6571fed45016d32d7/609211a24aa8181c147f3907_grdd_logo_web-06-p-800.png"
+p.src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b9/f8/9f/b9f89f76-36cb-8b40-eea6-b22e868ccf85/source/512x512bb.jpg"
 o=A.asd("meta",null)
 o.setAttribute("property","og:image")
 n=p.src
@@ -64340,7 +64340,7 @@ $0(){var s=t.z
 return A.z(s,s)},
 $S:0}
 A.Dw.prototype={
-S(a){return new A.tO(B.Ew,"Flutter Demo",A.agr(null,A.an7(B.X,B.E0),!0),!1,null)}}
+S(a){return new A.tO(B.Ew,"Gurudada",A.agr(null,A.an7(B.X,B.E0),!0),!1,null)}}
 A.u2.prototype={
 ap(){return new A.Ke(A.a_c(),B.m)}}
 A.Ke.prototype={
