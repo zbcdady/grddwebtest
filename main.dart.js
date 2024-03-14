@@ -65469,9 +65469,9 @@ while(true)switch(s){case 0:p=window.navigator.userAgent
 p.toString
 if(B.d.u(p,"iPhone")){p=window
 p.toString
-B.ex.ty(p,"gurudada://item?"+q.uc(),"_blank")}else{p=window
+B.ex.ty(p,"gurudada://item?"+q.uc(),"_self")}else{p=window
 p.toString
-B.ex.ty(p,"gurudada://item?"+q.uc(),"_blank")}return A.N(null,r)}})
+B.ex.ty(p,"gurudada://item?"+q.uc(),"_self")}return A.N(null,r)}})
 return A.O($async$zF,r)},
 aJ(){var s=this
 s.ba()
