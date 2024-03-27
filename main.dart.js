@@ -21017,8 +21017,8 @@ this.a=b
 this.b=c},
 Fd:function Fd(){},
 Yo:function Yo(a){this.a=a},
-anQ(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=a.h(0,"max_participants")
-if(f==null)f=0
+anQ(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=a.h(0,"max_participants")
+if(e==null)e=0
 s=a.h(0,"groups")
 if(s==null)s=[]
 r=t.N
@@ -21032,48 +21032,50 @@ q=A.f6(q==null?[]:q,!0,r)
 a.h(0,"uid")
 p=a.h(0,"participants")
 A.f6(p==null?[]:p,!0,r)
-a.h(0,"state")
-a.h(0,"inherited_from")
-p=a.h(0,"description")
+p=a.h(0,"state")
 if(p==null)p=""
-o=a.h(0,"duration")
-if(o==null)o=0
-o=new A.PB().$1(o)
+a.h(0,"inherited_from")
+o=a.h(0,"description")
+if(o==null)o=""
+n=a.h(0,"duration")
+if(n==null)n=0
+n=new A.PB().$1(n)
 new A.PD(a).$0()
-n=a.h(0,"languages")
-A.f6(n==null?[]:n,!0,r)
+m=a.h(0,"languages")
+A.f6(m==null?[]:m,!0,r)
 r=new A.PE(a).$0()
-n=a.h(0,"invisible")
-if(n==null)n=!1
-m=a.h(0,"address")
-if(m==null)m=""
-a.h(0,"age")
-l=a.h(0,"userage")
+m=a.h(0,"invisible")
+if(m==null)m=!1
+l=a.h(0,"address")
 if(l==null)l=""
-k=a.h(0,"usergender")
+a.h(0,"age")
+k=a.h(0,"userage")
 if(k==null)k=""
-j=a.h(0,"username")
+j=a.h(0,"usergender")
 if(j==null)j=""
-i=a.h(0,"userphoto")
+i=a.h(0,"username")
 if(i==null)i=""
-h=J.cw(J.ano(a.h(0,"geo")))
-g=J.cw(J.anq(a.h(0,"geo")))
-return new A.PA(f,s,q,p,o,r,n,m,l,k,j,i,h,g)},
-PA:function PA(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
+h=a.h(0,"userphoto")
+if(h==null)h=""
+g=J.cw(J.ano(a.h(0,"geo")))
+f=J.cw(J.anq(a.h(0,"geo")))
+return new A.PA(e,s,q,p,o,n,r,m,l,k,j,i,h,g,f)},
+PA:function PA(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.a=a
 _.e=b
 _.r=c
-_.Q=d
-_.as=e
-_.ay=f
-_.ch=g
-_.CW=h
-_.cy=i
-_.db=j
-_.dx=k
-_.dy=l
-_.fr=m
-_.fx=n},
+_.y=d
+_.Q=e
+_.as=f
+_.ay=g
+_.ch=h
+_.CW=i
+_.cy=j
+_.db=k
+_.dx=l
+_.dy=m
+_.fr=n
+_.fx=o},
 PB:function PB(){},
 PC:function PC(a){this.a=a},
 PD:function PD(a){this.a=a},
@@ -36687,6 +36689,7 @@ $2$left$right(a,b){return this.F(this,A.J("$2$left$right","$2$left$right",0,[a,b
 $2$hitTest$paintTransform(a,b){return this.F(this,A.J("$2$hitTest$paintTransform","$2$hitTest$paintTransform",0,[a,b],["hitTest","paintTransform"],0))},
 $3$crossAxisPosition$mainAxisPosition(a,b,c){return this.F(this,A.J("$3$crossAxisPosition$mainAxisPosition","$3$crossAxisPosition$mainAxisPosition",0,[a,b,c],["crossAxisPosition","mainAxisPosition"],0))},
 $2$hitTest$paintOffset(a,b){return this.F(this,A.J("$2$hitTest$paintOffset","$2$hitTest$paintOffset",0,[a,b],["hitTest","paintOffset"],0))},
+$1$color(a){return this.F(this,A.J("$1$color","$1$color",0,[a],["color"],0))},
 $8$color$fill$grade$opacity$opticalSize$shadows$size$weight(a,b,c,d,e,f,g,h){return this.F(this,A.J("$8$color$fill$grade$opacity$opticalSize$shadows$size$weight","$8$color$fill$grade$opacity$opticalSize$shadows$size$weight",0,[a,b,c,d,e,f,g,h],["color","fill","grade","opacity","opticalSize","shadows","size","weight"],0))},
 $1$paragraphWidth(a){return this.F(this,A.J("$1$paragraphWidth","$1$paragraphWidth",0,[a],["paragraphWidth"],0))},
 $21$background$color$decoration$decorationColor$decorationStyle$decorationThickness$fontFamily$fontFamilyFallback$fontFeatures$fontSize$fontStyle$fontVariations$fontWeight$foreground$height$leadingDistribution$letterSpacing$locale$shadows$textBaseline$wordSpacing(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1){return this.F(this,A.J("$21$background$color$decoration$decorationColor$decorationStyle$decorationThickness$fontFamily$fontFamilyFallback$fontFeatures$fontSize$fontStyle$fontVariations$fontWeight$foreground$height$leadingDistribution$letterSpacing$locale$shadows$textBaseline$wordSpacing","$21$background$color$decoration$decorationColor$decorationStyle$decorationThickness$fontFamily$fontFamilyFallback$fontFeatures$fontSize$fontStyle$fontVariations$fontWeight$foreground$height$leadingDistribution$letterSpacing$locale$shadows$textBaseline$wordSpacing",0,[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1],["background","color","decoration","decorationColor","decorationStyle","decorationThickness","fontFamily","fontFamilyFallback","fontFeatures","fontSize","fontStyle","fontVariations","fontWeight","foreground","height","leadingDistribution","letterSpacing","locale","shadows","textBaseline","wordSpacing"],0))},
@@ -36694,7 +36697,6 @@ $12$ellipsis$fontFamily$fontSize$fontStyle$fontWeight$height$locale$maxLines$str
 $4$boxHeightStyle$boxWidthStyle(a,b,c,d){return this.F(this,A.J("$4$boxHeightStyle$boxWidthStyle","$4$boxHeightStyle$boxWidthStyle",0,[a,b,c,d],["boxHeightStyle","boxWidthStyle"],0))},
 $2$end$start(a,b){return this.F(this,A.J("$2$end$start","$2$end$start",0,[a,b],["end","start"],0))},
 $3$boxHeightStyle(a,b,c){return this.F(this,A.J("$3$boxHeightStyle","$3$boxHeightStyle",0,[a,b,c],["boxHeightStyle"],0))},
-$1$color(a){return this.F(this,A.J("$1$color","$1$color",0,[a],["color"],0))},
 $8$enableDomStorage$enableJavaScript$headers$universalLinksOnly$useSafariVC$useWebView$webOnlyWindowName(a,b,c,d,e,f,g,h){return this.F(this,A.J("$8$enableDomStorage$enableJavaScript$headers$universalLinksOnly$useSafariVC$useWebView$webOnlyWindowName","$8$enableDomStorage$enableJavaScript$headers$universalLinksOnly$useSafariVC$useWebView$webOnlyWindowName",0,[a,b,c,d,e,f,g,h],["enableDomStorage","enableJavaScript","headers","universalLinksOnly","useSafariVC","useWebView","webOnlyWindowName"],0))},
 $3$context$exception$stack(a,b,c){return this.F(this,A.J("$3$context$exception$stack","$3$context$exception$stack",0,[a,b,c],["context","exception","stack"],0))},
 $2$onError(a,b){return this.F(this,A.J("$2$onError","$2$onError",0,[a,b],["onError"],0))},
@@ -65365,16 +65367,26 @@ return A.O($async$mg,r)},
 R(a){var s=null
 return A.eV(s,this.Rm(a),s,new A.aS(0,300,0,1/0),s,s,s,s,s)},
 Rm(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=A.qZ(16),h=A.ar(a),g=A.eV(j,A.wj(k.a.c.e,j,j,A.ar(a).p3.w),j,j,j,j,j,B.zu,j),f=A.ar(a).ax,e=f.e
-f=A.of(j,A.ke(B.zX,e==null?f.c:e,j),A.aeQ("MMM d . yyyy").nX(k.a.c.ay.Lo()),A.ar(a).ax.at,new A.a5M(),j)
-e=A.ar(a).ax
-s=e.e
-e=A.of(j,A.ke(B.zT,s==null?e.c:s,j),A.aeQ("KK : mm a").nX(k.a.c.ay.Lo()),A.ar(a).ax.at,new A.a5N(),j)
+f=A.ke(B.zX,e==null?f.c:e,j)
+e=A.aeQ("MMM d . yyyy").nX(k.a.c.ay.Lo())
 s=A.ar(a).ax
 r=s.e
-s=A.of(j,A.ke(B.zW,r==null?s.c:r,j),k.a.c.as,j,new A.a5O(),j)
+s=r==null?s.c:r
+s=A.of(j,f,e,s,new A.a5M(),j)
+e=A.ar(a).ax
+f=e.e
+f=A.ke(B.zT,f==null?e.c:f,j)
+e=A.aeQ("KK : mm a").nX(k.a.c.ay.Lo())
 r=A.ar(a).ax
 q=r.e
-r=A.of(j,A.ke(B.zV,q==null?r.c:q,j),k.a.c.Q,j,new A.a5P(),j)
+r=q==null?r.c:q
+r=A.of(j,f,e,r,new A.a5N(),j)
+e=A.ar(a).ax
+f=e.e
+f=A.of(j,A.ke(B.zW,f==null?e.c:f,j),k.a.c.as,j,new A.a5O(),j)
+e=A.ar(a).ax
+q=e.e
+e=A.of(j,A.ke(B.zV,q==null?e.c:q,j),k.a.c.Q,j,new A.a5P(),j)
 q=A.ar(a).ax
 p=q.e
 q=A.of(j,A.ke(B.zU,p==null?q.c:p,j),k.a.c.CW,j,new A.a5Q(k),j)
@@ -65387,7 +65399,7 @@ o=A.ke(B.zO,n==null?o.c:n,j)
 n=B.b.gG(k.a.c.r)
 m=k.a.c.r
 l=t.E
-return new A.eJ(B.jK,new A.AI(h.ax.CW,new A.cb(i,B.n),A.R0(A.a([g,A.eV(j,A.R0(A.a([f,B.bk,e,B.bk,s,B.bk,r,B.bk,q,B.bk,p,B.bk,A.of(new A.BI(n,A.en(m,1,j,A.a6(m).c),j),o,j,j,new A.a5S(),""),B.bk],l),B.fk,B.dS),j,j,j,j,j,B.fp,j),B.Fe],l),B.fl,B.dS),j),j)}}
+return new A.eJ(B.jK,new A.AI(h.ax.CW,new A.cb(i,B.n),A.R0(A.a([g,A.eV(j,A.R0(A.a([s,B.bk,r,B.bk,f,B.bk,e,B.bk,q,B.bk,p,B.bk,A.of(new A.BI(n,A.en(m,1,j,A.a6(m).c),j),o,j,j,new A.a5S(),""),B.bk],l),B.fk,B.dS),j,j,j,j,j,B.fp,j),B.Fe],l),B.fl,B.dS),j),j)}}
 A.a5M.prototype={
 $0(){var s=t.z
 return A.z(s,s)},
@@ -65420,38 +65432,40 @@ R(a){return new A.u8(B.ED,"Gurudada",A.ahL(null,A.aou(B.X,B.E4),!0),!1,null)}}
 A.un.prototype={
 al(){return new A.KG(A.a_N(),B.l)}}
 A.KG.prototype={
-p0(){var s=0,r=A.P(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c
-var $async$p0=A.Q(function(a,b){if(a===1){p=b
-s=q}while(true)switch(s){case 0:e=$.d0
-d=(e==null?$.d0=$.iv():e).hf("[DEFAULT]")
-A.dz(d,$.fu(),!0)
-j=A.apP(new A.dR(d))
-e=j.c
-if(e==null){e=j.e
-e=j.c=A.afA().xW(j.d,e)}n=A.atE(j,e.ns("activities_web")).i0(o.uc())
+p0(){var s=0,r=A.P(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b
+var $async$p0=A.Q(function(a,a0){if(a===1){p=a0
+s=q}while(true)switch(s){case 0:d=$.d0
+c=(d==null?$.d0=$.iv():d).hf("[DEFAULT]")
+A.dz(c,$.fu(),!0)
+h=A.apP(new A.dR(c))
+d=h.c
+if(d==null){d=h.e
+d=h.c=A.afA().xW(h.d,d)}n=A.atE(h,d.ns("activities_web")).i0(o.uc())
 q=3
 s=6
 return A.U(J.ant(n),$async$p0)
-case 6:m=b
-if(m.b.c!=null){e=m
-i=A.aib(e.b.Ii(0),e.a)
-l=i==null?t.a.a(i):i
+case 6:m=a0
+if(m.b.c!=null){d=m
+g=A.aib(d.b.Ii(0),d.a)
+l=g==null?t.a.a(g):g
 A.na("Document data: "+A.h(l))
-e=A.anQ(l)
-o.d=e
-if(!e.ch){e=Date.now()
-h=o.d
-g=J.b5(l,"duration")
-e=e>h.ay.D(0,A.bX(0,0,g==null?0:g)).a}else e=!0
-if(e)o.f=!1
+d=A.anQ(l)
+o.d=d
+f=J.b5(l,"duration")
+k=d.ay.D(0,A.bX(0,0,f==null?0:f))
+j=Date.now()>k.a
+d=o.d
+if(!d.ch){d=d.y
+d=d==="Not scheduled"||d==="\u672a\u53d1\u5e03"||d==="finished"||j}else d=!0
+if(d)o.f=!1
 o.aj(new A.a6J(o))}else{A.na("Document does not exist.")
 o.aj(new A.a6K(o))}q=1
 s=5
 break
 case 3:q=2
-c=p
-k=A.a7(c)
-A.na("Error retrieving document: "+A.h(k))
+b=p
+i=A.a7(b)
+A.na("Error retrieving document: "+A.h(i))
 s=5
 break
 case 2:s=1
