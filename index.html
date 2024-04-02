@@ -28,7 +28,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" href="icons/favicon_light.png" id="favicon">
 
   <title>grddweb</title>
   <link rel="manifest" href="manifest.json">
@@ -41,6 +41,27 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <script>
+    // 检测暗黑模式并切换favicon
+    function updateFavicon() {
+      var darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      var favicon = document.getElementById('favicon');
+      if (darkModeMediaQuery.matches) {
+        // 用户界面为暗黑模式
+        favicon.href = 'icons/favicon_dark.ico';
+      } else {
+        // 用户界面为明亮模式
+        favicon.href = 'icons/favicon_light.ico';
+      }
+    }
+  
+    // 初始检测
+    updateFavicon();
+  
+    // 监听暗黑模式变化
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+  </script>
+  
 </head>
 <body>
   <script>
