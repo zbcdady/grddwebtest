@@ -73376,9 +73376,9 @@ if(J.U(b)!==A.w(s))return!1
 return b instanceof A.cW&&b.a===s.a&&b.b===s.b}}
 A.a_Y.prototype={}
 A.a_Z.prototype={
-$1(a){var s=B.f.br(a,86400),r=B.f.br(B.f.bv(a,86400),3600),q=B.f.br(B.f.bv(a,3600),60),p=s>0?""+s+"days":""
-if(r>0)p+=""+r+"hours"
-return q>0?p+(""+q+"minutes"):p},
+$1(a){var s=B.f.br(a,86400),r=B.f.br(B.f.bv(a,86400),3600),q=B.f.br(B.f.bv(a,3600),60),p=s>0?""+s+" days, ":""
+if(r>0)p+=""+r+" hours, "
+return q>0?p+(""+q+" minutes"):p},
 $S:42}
 A.a0_.prototype={
 $0(){var s="created_at",r=this.a
